@@ -82,26 +82,8 @@ print(canais)
 ```
 
 O **sistema de coordenadas** utilizado, geralmente, é da seguinte forma:
-```
-          y
-          ↑
-          │
-          │ (0,0)
-──────────┼──────────→ x         [matemático]
-          │
-          │
 
-
-(0,0) ─────────────────────→ x   [imagens]
-  │
-  │
-  │
-  │
-  │
-  ↓
-  y
-
-```
+<img src="../imagens/mod1_5.png" width="294">
 
 Por exemplo, suponha que temos uma imagem Full HD (1920x1080). Sua representação é:
 ```Python
