@@ -64,6 +64,8 @@ cv2.waitKey(0) #0 deixa indefinido, outros valores deixam com X milliseg
 
 # ***Módulo 2.) Propriedades do img.shape:***
 
+Retomando o que vimos:
+
 ```Python
 import cv2
 img = cv2.imread("endereco_da_imagem.jpg/png")
@@ -89,7 +91,7 @@ Por exemplo, suponha que temos uma imagem Full HD (1920x1080). Sua representaç�
 
 <img src="../imagens/mod1_6.png" width="500">
 
-Logo, para acessar o pixel(700,400), escrevemos img[400,700].
+Logo, para acessar o pixel(700,400), escrevemos `img[400,700]`.
 
 Exemplo para finalizar:
 ```Python
