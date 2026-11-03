@@ -87,7 +87,7 @@ O **sistema de coordenadas** utilizado, geralmente, é da seguinte forma:
 
 Por exemplo, suponha que temos uma imagem Full HD (1920x1080). Sua representação é:
 
-<img src="../imagens/mod1_6.png" width="700">
+<img src="../imagens/mod1_6.png" width="500">
 
 Logo, para acessar o pixel(700,400), escrevemos img[400,700].
 
