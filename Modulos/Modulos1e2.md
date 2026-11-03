@@ -83,7 +83,7 @@ print(canais)
 
 O **sistema de coordenadas** utilizado, geralmente, é da seguinte forma:
 
-<img src="../imagens/mod1_5.png" width="400">
+<img src="../imagens/mod1_5.png" width="700">
 
 Por exemplo, suponha que temos uma imagem Full HD (1920x1080). Sua representação é:
 ```Python
