@@ -21,7 +21,7 @@ import cv2
 ## ↪ 1.) Imagens
 
 Uma imagem é formada por **pixels (caixas)**, e sua resolução depende da quantidade que utilizamos:
-![Descrição da imagem](caminho/da/imagem.png)
+![Descrição da imagem](imagens/0.png)
 
 ```
         x
