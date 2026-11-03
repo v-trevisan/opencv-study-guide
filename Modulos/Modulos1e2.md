@@ -36,7 +36,7 @@ Dessa forma, de acordo com o sistema de coloração da imagem, os pixels podem a
 
 <img src="../imagens/mod1_2.png" width="294">
 
-**(b) Imagem em escala cinza** - se utilizar 8 bits, $2^8$, teremos 256 tonalidades de cinza entre o preto (0) e branco (255);
+**(b) Imagem em escala cinza** - se utilizar 8 bits, $2^{8}$, teremos 256 tonalidades de cinza entre o preto (0) e branco (255);
 
 <img src="../imagens/mod1_3.png" width="294">
 
