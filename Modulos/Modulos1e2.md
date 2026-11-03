@@ -24,7 +24,6 @@ Uma imagem é formada por **pixels (caixas)**, e sua resolução depende da quan
 <p align="center">
   <img src="../imagens/0.png" width="650">
 </p>
-![Descrição da imagem|500](../imagens/mod1_1.png)
 
 | TIPO | Horizontal(X) | Vertical(Y) |
 | :--: | :-----------: | :---------: |
