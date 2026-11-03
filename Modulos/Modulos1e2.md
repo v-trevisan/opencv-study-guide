@@ -167,7 +167,7 @@ else:
 
 >[!important]
 >Podemos mandar um segundo parâmetro para o imread( ):
->** $img = cv2.imread(caminho, flag)$**
+>**$img = cv2.imread(caminho, flag)$**
 
 As **flags** indicam como queremos importar a imagem. As 3 principais são: 
 **(a) cv2.IMREAD_COLOR** = comportamento padrão;
