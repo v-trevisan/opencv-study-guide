@@ -1,4 +1,3 @@
-
 # ***Módulo 1.) Introdução***
 
 O OpenCV é uma biblioteca open source (código fonte aberto) voltada para:
@@ -17,8 +16,8 @@ Depois, importamos a biblioteca em Python da seguinte forma:
 import cv2
 ```
 
----
-## ↪ 1.) Imagens
+
+## I.) Imagens
 
 Uma imagem é formada por **pixels (caixas)**, e sua resolução depende da quantidade que utilizamos:
 
@@ -89,7 +88,7 @@ Para o OpenCV, o sistema de cores utilizado é **[B,G,R] (Blue, Green, Red)**, n
 
 Agora, vamos ver alguns exemplos de funcionalidades com o OpenCV:
 
-**1.) Criando uma variável imagem:**
+## **II.) Criando uma variável imagem:**
 
 ```Python
 # IMPORTANDO UMA IMAGEM
@@ -103,8 +102,10 @@ cv2.imshow("Output", img)
 #devemos deixar um tempo de espera
 cv2.waitKey(0) #0 deixa indefinido, outros valores deixam com X milliseg
 ```
+ ---
 
-**2.) Propriedades do img.shape:**
+# ***Módulo 2.) Propriedades do img.shape:***
+
 ```Python
 import cv2
 img = cv2.imread("endereco_da_imagem.jpg/png")
@@ -187,7 +188,7 @@ print("Red:", pixel[2]) #3
 ```
 
 ---
-## ↪ 2.) Leitura e escrita de imagens
+## I.) Leitura e escrita de imagens
 
 Basicamente, uma imagem carregada no OpenCV é um **array numpy**, com valores representando os pixels. Agora, vamos ver como fazemos uma imagem que está salva no computador virar esse array, e como salvamos um array novamente como uma imagem:
 
