@@ -31,6 +31,7 @@ Uma imagem é formada por **pixels (caixas)**, e sua resolução depende da quan
 |  4k  |     3840      |    2160     |
 
 Dessa forma, de acordo com o sistema de coloração da imagem, os pixels podem assumir valores distintos:
+
 **(a) Imagem binária** - imagem preto e branco com 2 níveis de cor (0 ou 1);
 
 <img src="../imagens/mod1_2.png" width="294">
@@ -43,9 +44,7 @@ Dessa forma, de acordo com o sistema de coloração da imagem, os pixels podem a
 
 <img src="../imagens/mod1_4.png" width="294">
 
-Para o OpenCV, o sistema de cores utilizado é **[B,G,R] (Blue, Green, Red)**, no padrão geral.
-
-Agora, vamos ver alguns exemplos de funcionalidades com o OpenCV:
+Para o OpenCV, o sistema de cores utilizado é **[B,G,R] (Blue, Green, Red)**, no padrão geral. Estudaremos espaços de cores mais adiante. Agora, vamos ver alguns exemplos de funcionalidades com o OpenCV:
 
 ## **II.) Criando uma variável imagem:**
 
