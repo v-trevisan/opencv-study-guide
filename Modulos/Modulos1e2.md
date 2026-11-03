@@ -86,20 +86,9 @@ O **sistema de coordenadas** utilizado, geralmente, é da seguinte forma:
 <img src="../imagens/mod1_5.png" width="700">
 
 Por exemplo, suponha que temos uma imagem Full HD (1920x1080). Sua representação é:
-```Python
-print(img.shape) #(1080, 1920, 3)
-              1920 pixels
-         ←────── X ──────→
 
-      ┌───────────────────────┐
-      │(0,0)                  │
-      │                       │
- 1080 │          •            │
-pixels│      (x=700,y=400)    │
-  Y   │                       │
-      │                       │
-      └───────────────────────┘
-```
+<img src="../imagens/mod1_6.png" width="700">
+
 Logo, para acessar o pixel(700,400), escrevemos img[400,700].
 
 Exemplo para finalizar:
