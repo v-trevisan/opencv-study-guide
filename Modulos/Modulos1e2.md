@@ -32,57 +32,16 @@ Uma imagem é formada por **pixels (caixas)**, e sua resolução depende da quan
 
 Dessa forma, de acordo com o sistema de coloração da imagem, os pixels podem assumir valores distintos:
 **(a) Imagem binária** - imagem preto e branco com 2 níveis de cor (0 ou 1);
-```
-┌────┬────┬────┐
-│  0 │  0 │  1 │
-├────┼────┼────┤
-│  1 │  1 │  1 │
-├────┼────┼────┤
-│  0 │  0 │  0 │
-└────┴────┴────┘
-       ||
-       \/
-┌────┬────┬────┐
-│    │    │ ██ │
-├────┼────┼────┤
-│ ██ │ ██ │ ██ │
-├────┼────┼────┤
-│    │    │    │
-└────┴────┴────┘
-```
+
+<img src="../imagens/mod1_2.png" width="294">
 
 **(b) Imagem em escala cinza** - se utilizar 8 bits, $2^8$, teremos 256 tonalidades de cinza entre o preto (0) e branco (255);
-```
-┌────┬────┬────┐
-│ 20 │ 80 │ 200│
-├────┼────┼────┤
-│ 40 │120 │ 255│
-├────┼────┼────┤
-│  0 │ 70 │ 160│
-└────┴────┴────┘
-       ||
-       \/
-┌────┬────┬────┐
-│ ▓▓ │ ▓▒ │ ░░ │
-├────┼────┼────┤
-│ ▓▒ │ ▒▒ │ ██ │
-├────┼────┼────┤
-│    │ ▓▒ │ ░▒ │
-└────┴────┴────┘
-```
+
+<img src="../imagens/mod1_3.png" width="294">
 
 **(c) Imagens coloridas** - em vez de **um número por pixel**, normalmente temos **três números por pixel**. Dessa forma, temos 3 imagens em escala cinza sobrepostas (Red, Blue, Green). Daí, origina-se a escala RGB de cores => $qtd.\ total\ de\ valores = Resolução [X \times Y] \times 3.$
-```
-┌─────────────────┬─────────────────┐
-│ [255, 0, 0]     │ [0, 0, 255]     │
-│                 │                 │
-│ vermelho        │ verde           │
-├─────────────────┼─────────────────┤
-│ [0, 255, 0]     │ [255,255,255]   │
-│                 │                 │
-│ azul            │ branco          │
-└─────────────────┴─────────────────┘
-```
+
+<img src="../imagens/mod1_4.png" width="294">
 
 Para o OpenCV, o sistema de cores utilizado é **[B,G,R] (Blue, Green, Red)**, no padrão geral.
 
