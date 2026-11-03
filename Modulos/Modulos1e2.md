@@ -22,19 +22,7 @@ import cv2
 
 Uma imagem é formada por **pixels (caixas)**, e sua resolução depende da quantidade que utilizamos:
 
-![Descrição da imagem](../imagens/mod1_1.png)
-
-```
-        x
-        0    1    2    3
-     ┌────┬────┬────┬────┐
- y 0 │    │    │    │    │
-     ├────┼────┼────┼────┤
-   1 │    │    │    │    │
-     ├────┼────┼────┼────┤
-   2 │    │    │    │    │
-     └────┴────┴────┴────┘
-```
+![Descrição da imagem|500](../imagens/mod1_1.png)
 
 | TIPO | Horizontal(X) | Vertical(Y) |
 | :--: | :-----------: | :---------: |
