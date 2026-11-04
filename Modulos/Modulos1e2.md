@@ -170,14 +170,19 @@ else:
 >**$img = cv2.imread(caminho, flag)$**
 
 As **flags** indicam como queremos importar a imagem. As 3 principais são: 
+
 **(a) cv2.IMREAD_COLOR** = comportamento padrão;
+
 **(b) cv2.IMREAD_GRAYSCALE** = carrega a imagem em escala cinza;
+
 **(c) cv2.IMREAD_UNCHANGED** = carrega a imagem preservando seus canais como estão no arquivo, quando suportados. Por exemplo, quando a imagem tem transparência.
 
 >[!important]
 >Podemos representar as escalas por números também:
->  1 → IMREAD_COLOR 
->  0 → IMREAD_GRAYSCALE 
+>  1 → IMREAD_COLOR
+>
+>  0 → IMREAD_GRAYSCALE
+>
 >-1 → IMREAD_UNCHANGED
 
 ```Python
