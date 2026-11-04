@@ -179,6 +179,7 @@ As **flags** indicam como queremos importar a imagem. As 3 principais são:
 
 >[!important]
 >Podemos representar as escalas por números também:
+>
 >  1 → IMREAD_COLOR
 >
 >  0 → IMREAD_GRAYSCALE
